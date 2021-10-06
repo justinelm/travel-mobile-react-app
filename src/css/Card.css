@@ -1,0 +1,11 @@
+.card {
+  /* border */
+  border-radius: 1em;
+
+  /* size */
+  width: fit-content;
+  height: fit-content;
+
+  /* spacing */
+  margin-top: 1em;
+}

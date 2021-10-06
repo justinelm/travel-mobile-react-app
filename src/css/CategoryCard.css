@@ -1,0 +1,16 @@
+#categories .card {
+  /* size */
+  min-width: 5.5em;
+
+  /* color */
+  color: white;
+
+  /* content positioning */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1em;
+
+  /* spacing */
+  padding: 1em;
+}

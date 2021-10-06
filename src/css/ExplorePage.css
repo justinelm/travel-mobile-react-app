@@ -1,0 +1,13 @@
+.main .header {
+  /* spacing */
+  padding-left: 1em;
+
+  /* content positioning */
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .main .header {
+    padding: 0 10em 0 10em;
+  }
+}

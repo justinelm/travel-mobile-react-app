@@ -1,0 +1,76 @@
+.card-list.horizontal {
+  /* spacing */
+  margin-top: 1.8em;
+  /* padding: 0 1em 0 1em; */
+
+  overflow-x: auto;
+  /* scroll-snap-type: x mandatory;
+  scroll-snap-points-x: repeat(20%); */
+}
+.card-list.horizontal .card:first-child {
+  margin-left: 1em;
+}
+.card-list.horizontal .card:last-child {
+  margin-right: 1em;
+}
+.card-list.horizontal .icon {
+  /* size */
+  width: 1.4em;
+  height: 1.4em;
+
+  /* color */
+  /* color: #4c95aa; */
+}
+.card-list.horizontal .header {
+  /* content positioning */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+
+  /* spacing */
+  margin-right: 1em;
+}
+.card-list.horizontal .header .title {
+  font-weight: 600;
+}
+.card-list.horizontal .content {
+  display: flex;
+  gap: 0.8em;
+  position: relative;
+
+  /* scrolling */
+  overflow-x: auto;
+}
+.card-list.horizontal .more {
+  /* content positioning */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2em;
+
+  /* color */
+  color: #4dbedc;
+}
+.card-list.horizontal .more .label {
+  /* size */
+  font-size: 0.9em;
+
+  /* weight */
+  font-weight: bold;
+}
+@media (min-width: 768px) {
+  .card-list.horizontal > .header {
+    /* spacing */
+    margin-right: 0;
+  }
+  .card-list.horizontal > .content {
+    margin: 0 10em 0 10em;
+  }
+  .card-list.horizontal .card:first-child {
+    margin-left: 0;
+  }
+  .card-list.horizontal .card:last-child {
+    margin-right: 0;
+  }
+}

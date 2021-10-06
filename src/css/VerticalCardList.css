@@ -1,0 +1,50 @@
+.card-list.vertical {
+  /* spacing */
+  margin-top: 1.8em;
+
+  overflow-y: auto;
+}
+.card-list.vertical .card:first-child {
+  margin-top: 1em;
+}
+.card-list.vertical .card:last-child {
+  margin-bottom: 1em;
+}
+.card-list.vertical .icon {
+  /* size */
+  width: 1.4em;
+  height: 1.4em;
+
+  /* color */
+  /* color: #4c95aa; */
+}
+.card-list.vertical > .content {
+  /* content positioning */
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+
+  /* spacing */
+  margin: 0em 1em 0em 1em;
+
+  /* scrolling */
+  overflow-y: auto;
+}
+.card-list.vertical > .content > .place.card {
+  width: 100% !important;
+}
+.card-list.vertical .place .image {
+  /* size */
+  width: 100% !important;
+  height: 13em;
+}
+@media (min-width: 768px) {
+  .card-list.vertical > .content {
+    /* content positioning */
+    gap: 2em;
+  }
+  .card-list.vertical .place .image {
+    /* size */
+    height: 30em;
+  }
+}

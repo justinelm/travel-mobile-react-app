@@ -1,0 +1,32 @@
+.top-navigation {
+  /* content positioning */
+  display: flex;
+  justify-content: space-between;
+
+  /* spacing */
+  padding: 1em 1em 0 1em;
+}
+.top-navigation .nav-group.left .icon {
+  /* size */
+  width: 2.4em;
+  height: 2.4em;
+}
+.top-navigation .nav-group.right {
+  display: flex;
+  gap: 1.5em;
+  color: #2e2e2e;
+}
+.top-navigation .nav-group.right .icon {
+  /* size */
+  width: 1.5em;
+  height: 1.5em;
+}
+@media (min-width: 768px) {
+  .top-navigation {
+    display: none;
+    /* margin: 0 10em 0 10em; */
+
+    /* spacing */
+    /* padding: 1em 0 0 0; */
+  }
+}

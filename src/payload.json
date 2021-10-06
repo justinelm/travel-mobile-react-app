@@ -1,0 +1,76 @@
+{
+  "categories": [
+    {
+      "name": "All",
+      "gradients": {
+        "top": "#",
+        "bottom": "#"
+      },
+      "icon": "<svg></svg>"
+    },
+    {
+      "name": "Hiking trips",
+      "gradients": {
+        "top": "#",
+        "bottom": "#"
+      },
+      "icon": "<svg></svg>"
+    },
+    {
+      "name": "City tours",
+      "gradients": {
+        "top": "#",
+        "bottom": "#"
+      },
+      "icon": "<svg></svg>"
+    },
+    {
+      "name": "Beaches",
+      "gradients": {
+        "top": "#",
+        "bottom": "#"
+      },
+      "icon": "<svg></svg>"
+    }
+  ],
+  "recommendedPlaces": [
+    {
+      "name": "Chocolate Hills",
+      "imgUrl": "urlhere",
+      "continent": "",
+      "country": "",
+      "city": "",
+      "avgRating": 4.8,
+      "reviewCount": 1899
+    },
+    {
+      "name": "Underground River",
+      "imgUrl": "https://images.unsplash.com/photo-1581216061628-2187b387eb5c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=877&q=80",
+      "continent": "",
+      "country": "",
+      "city": "",
+      "avgRating": 4.8,
+      "reviewCount": 1899
+    }
+  ],
+  "popularPlaces": [
+    {
+      "name": "Chocolate Hills",
+      "imgUrl": "urlhere",
+      "continent": "",
+      "country": "",
+      "city": "",
+      "avgRating": 4.8,
+      "reviewCount": 1899
+    },
+    {
+      "name": "Underground River",
+      "imgUrl": "https://images.unsplash.com/photo-1581216061628-2187b387eb5c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=877&q=80",
+      "continent": "",
+      "country": "",
+      "city": "",
+      "avgRating": 4.8,
+      "reviewCount": 1899
+    }
+  ]
+}

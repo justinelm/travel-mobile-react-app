@@ -1,0 +1,66 @@
+.place .image {
+  /* size */
+  width: 18em;
+  height: 10em;
+
+  /* border */
+  border-radius: 1em;
+  background-size: cover;
+}
+.place .image .content {
+  /* content positioning */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.place .image .content .pill {
+  /* color */
+  color: #ffff;
+  background-color: rgba(175, 174, 174, 0.4);
+
+  /* texture */
+  backdrop-filter: blur(35px);
+  /* opacity: 0.8; */
+
+  /* spacing */
+  padding: 0.5em;
+  margin: 1em;
+
+  /* border */
+  border-radius: 3em;
+}
+.pill {
+  display: flex;
+  gap: 0.5em;
+}
+.pill.solid {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.place .description {
+  /* spacing */
+  margin-top: 0.5em;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.place .location-content {
+  /* color */
+  color: #a8a7aa;
+
+  /* content positioning */
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+.place .description .title {
+  font-size: large;
+  font-weight: 500;
+}
+.place .map-location {
+  font-size: large;
+  font-weight: 400;
+}
